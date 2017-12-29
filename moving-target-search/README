@@ -1,0 +1,18 @@
+The simulation part of our application is implemented in java and creates a text output file
+
+Run the simulation part:
+- run the Main class of the project in an IDE;it requires as first argument the ABSOLUTE path to the text file describing
+    the graph and the starting positions and as second argument the algorithm to use for the moving target search
+    (either "mtdstar" or "astar")
+OR
+- navigate to moving-target-search\out\production\Moving Target Search\
+- run the main.Main class of the java project; it requires as first argument the ABSOLUTE path to the text file describing
+    the graph and the starting positions and as second argument the algorithm to use for the moving target search
+    (either "mtdstar" or "astar")
+    -> e.g.: java main.Main C:\Users\lukas\Documents\moving-target-search\src\parser\stockholm_graph.txt mtdstar
+
+- use the file moving-target-search\src\parser\stockholm_graph.txt to get the graph we used
+- the program will create an output file named output_<time in millis>.txt located in the moving-target-search\ folder
+- this file is the result of the program and contains the catch log
+- for an explanation of the output file, look at sample_output.txt
+
